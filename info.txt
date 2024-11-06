@@ -1,1 +1,11 @@
-first commit
+Parte 1:
+    As 4 tarefas foram realizadas no arquivo 'sh.c';
+    
+    Depois de executar o arquivo 'grade.sh' para realizar os testes a execução 
+    passa em 8 de 9 testes, falhando na compilação do primeiro (test0.sh);
+
+    Os testes já estão na pasta, no diretório 'testes', para executá-los,
+    basta apenas rodar no terminal './grade.sh';
+
+Parte 2:
+    Ainda não iniciada;

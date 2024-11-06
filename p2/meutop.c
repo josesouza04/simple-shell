@@ -41,11 +41,9 @@ int main() {
         int num_procs = getProcesses(procs, MAX_PROCS);
 
         // Limpa a tela para uma exibição mais limpa
-        system("clear");
-
+        //system("clear");
         // Exibe a tabela
         displayProcesses(procs, num_procs);
-
         // Atraso de 1 segundo antes da próxima atualização
         sleep(1);
     }
@@ -116,7 +114,7 @@ void *signalInputThread(void *arg) {
     int pid, signal;
 
     while (1) {
-        printf("> ");
+        //printf("> ");
         if (scanf("%d %d", &pid, &signal) == 2) {
             if (kill(pid, signal) == -1) {
                 perror("kill");
